@@ -1,0 +1,57 @@
+{
+  "versao": 1,
+  "template": "templates/supervisor_base.png",
+  "fonte_nome": "fonts/fonnts.com-Omnium_ExtraBold.otf",
+  "fonte_textos": "Arial",
+  "foto": {
+    "x": 158,
+    "y": 291,
+    "largura": 322,
+    "altura": 322,
+    "circular": true,
+    "centragem_x": 0.5,
+    "centragem_y": 0.42,
+    "diametro": 322,
+    "manter_circulo_perfeito": true
+  },
+  "nome": {
+    "x_centro": 319,
+    "y": 687,
+    "tamanho": 42,
+    "cor": "#000000",
+    "largura_maxima": 540
+  },
+  "cargo": {
+    "texto": "Líder de Vendas",
+    "x_centro": 319,
+    "y": 761,
+    "tamanho": 30,
+    "cor": "#000000"
+  },
+  "documento": {
+    "x_centro": 319,
+    "y": 820,
+    "tamanho": 34,
+    "cor": "#000000",
+    "prefixo_rg": "RG:",
+    "prefixo_cpf": "CPF:"
+  },
+  "linha_esquerda": {
+    "x1": 107,
+    "y1": 779,
+    "x2": 183,
+    "y2": 779,
+    "espessura": 4,
+    "cor": "#000000"
+  },
+  "linha_direita": {
+    "x1": 446,
+    "y1": 779,
+    "x2": 524,
+    "y2": 779,
+    "espessura": 4,
+    "cor": "#000000"
+  },
+  "fonte_cargo": "fonts/RobotoCondensed-Regular.ttf",
+  "fonte_documento": "fonts/fonnts.com-Omnium_ExtraBold.otf"
+}

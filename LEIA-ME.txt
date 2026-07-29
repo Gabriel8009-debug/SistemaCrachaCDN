@@ -1,0 +1,20 @@
+CORREÇÃO DAS PRÉVIAS E TELAS DE ARQUIVOS NO EXECUTÁVEL
+
+Causa corrigida:
+As telas da interface procuravam a pasta output dentro de _internal.
+Os crachás são gravados corretamente ao lado do executável, em output.
+
+Arquivos corrigidos:
+- app/ui/producao.py
+- app/ui/dashboard.py
+- app/ui/historico.py
+- app/ui/reimpressao.py
+- app/ui/configuracoes.py
+
+Aplicação:
+1. Feche o sistema.
+2. Copie a pasta app deste pacote para C:\SistemaCracha.
+3. Confirme a substituição.
+4. Execute GERAR_TUDO.bat.
+5. Desinstale a versão instalada anteriormente.
+6. Instale o novo Setup_SistemaCrachaCDN.exe.

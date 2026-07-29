@@ -1,0 +1,89 @@
+{
+  "versao": 1,
+  "tela": {
+    "largura": 1920,
+    "altura": 1080
+  },
+  "janela_sisweb": {
+    "left": -8,
+    "top": -8,
+    "right": 1928,
+    "bottom": 1040,
+    "width": 1936,
+    "height": 1048
+  },
+  "pontos": {
+    "campo_pesquisa": {
+      "x_absoluto": 34,
+      "y_absoluto": 77,
+      "x_relativo": 0.021694,
+      "y_relativo": 0.081107
+    },
+    "primeira_linha_resultado": {
+      "x_absoluto": 1024,
+      "y_absoluto": 302,
+      "x_relativo": 0.533058,
+      "y_relativo": 0.295802
+    },
+    "aba_dados_basicos": {
+      "x_absoluto": 59,
+      "y_absoluto": 214,
+      "x_relativo": 0.034607,
+      "y_relativo": 0.211832
+    },
+    "campo_codigo": {
+      "x_absoluto": 254,
+      "y_absoluto": 255,
+      "x_relativo": 0.135331,
+      "y_relativo": 0.250954
+    },
+    "campo_nome": {
+      "x_absoluto": 347,
+      "y_absoluto": 280,
+      "x_relativo": 0.183368,
+      "y_relativo": 0.274809
+    },
+    "campo_email": {
+      "x_absoluto": 348,
+      "y_absoluto": 326,
+      "x_relativo": 0.183884,
+      "y_relativo": 0.318702
+    },
+    "campo_cpf": {
+      "x_absoluto": 419,
+      "y_absoluto": 350,
+      "x_relativo": 0.220558,
+      "y_relativo": 0.341603
+    },
+    "aba_telefones": {
+      "x_absoluto": 56,
+      "y_absoluto": 278,
+      "x_relativo": 0.033058,
+      "y_relativo": 0.272901
+    },
+    "primeiro_telefone": {
+      "x_absoluto": 245,
+      "y_absoluto": 295,
+      "x_relativo": 0.130682,
+      "y_relativo": 0.289122
+    },
+    "aba_documentos": {
+      "x_absoluto": 61,
+      "y_absoluto": 309,
+      "x_relativo": 0.03564,
+      "y_relativo": 0.302481
+    },
+    "coluna_tipo_documento": {
+      "x_absoluto": 325,
+      "y_absoluto": 299,
+      "x_relativo": 0.172004,
+      "y_relativo": 0.292939
+    },
+    "coluna_numero_documento": {
+      "x_absoluto": 321,
+      "y_absoluto": 299,
+      "x_relativo": 0.169938,
+      "y_relativo": 0.292939
+    }
+  }
+}

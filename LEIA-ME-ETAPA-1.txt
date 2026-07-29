@@ -1,0 +1,30 @@
+ETAPA 1 - FUNDACAO E PREVIAS
+
+Arquivos corrigidos:
+- app/path_manager.py
+- app/ui/producao.py
+- SistemaCrachaCDN.spec
+- validar_build.py
+- GERAR_TUDO.bat
+- GERAR_EXE_DEFINITIVO.bat
+- GERAR_INSTALADOR.bat
+
+O que mudou:
+1. Diretórios mutáveis são criados automaticamente ao iniciar.
+2. A prévia usa diretamente o caminho impresso em "Crachá salvo em:".
+3. Erros de prévia deixam de ser ocultados e aparecem no log técnico.
+4. O spec deixa de coletar testes, benchmarks e ferramentas internas inteiras.
+5. Removido o hidden import inexistente mediapipe.python.solutions.face_detection.
+6. BATs regravados com CRLF e sem comandos acentuados, evitando 'itle'/'etlocal'.
+
+COMO APLICAR
+1. Feche o sistema.
+2. Copie o conteúdo desta pasta para C:\SistemaCracha.
+3. Confirme a substituição dos arquivos.
+4. Execute GERAR_TUDO.bat.
+5. Desinstale a versão anterior e instale o novo Setup.
+6. Teste primeiro com apenas um pedido pendente.
+
+Observação:
+O spec foi reduzido de forma conservadora. O teste definitivo precisa ser feito no Windows,
+pois este pacote foi validado estruturalmente fora do ambiente Windows.

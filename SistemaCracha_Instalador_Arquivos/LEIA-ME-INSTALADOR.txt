@@ -1,0 +1,41 @@
+SISTEMA DE CRACHÁS CDN — INSTALADOR PROFISSIONAL
+
+OBJETIVO
+Gerar um Setup.exe que instala o sistema e cria atalhos na Área de Trabalho e no Menu Iniciar.
+
+REQUISITOS NO COMPUTADOR DE BUILD
+1. Windows 10 ou 11, 64 bits.
+2. Projeto funcionando dentro de C:\SistemaCracha.
+3. Ambiente virtual .venv já configurado.
+4. Inno Setup 6 instalado.
+
+COMO GERAR TUDO
+1. Copie o conteúdo deste pacote para C:\SistemaCracha.
+2. Execute GERAR_TUDO.bat.
+3. Aguarde o build do programa e do instalador.
+4. O arquivo final será criado em:
+   C:\SistemaCracha\dist_instalador\Setup_SistemaCrachaCDN.exe
+
+COMO GERAR APENAS O INSTALADOR
+Caso dist\SistemaCrachaCDN\SistemaCrachaCDN.exe já exista, execute:
+GERAR_INSTALADOR.bat
+
+INSTALAÇÃO NO COMPUTADOR DE USO
+1. Execute Setup_SistemaCrachaCDN.exe.
+2. Mantenha marcada a opção “Criar atalho na Área de Trabalho”.
+3. Clique em Instalar.
+4. O sistema será instalado por usuário em:
+   %LOCALAPPDATA%\Programs\SistemaCrachaCDN
+
+POR QUE NÃO USAR PROGRAM FILES
+O sistema grava crachás, fotos temporárias e logs ao lado do executável. A instalação em LocalAppData evita bloqueios de permissão do Windows e não exige acesso de administrador.
+
+ATUALIZAÇÕES
+O AppId do instalador é fixo. Novas versões podem ser instaladas por cima da anterior. Antes de distribuir uma atualização, altere MyAppVersion no arquivo:
+installer\SistemaCrachaCDN.iss
+
+OBSERVAÇÕES
+- O instalador não instala automaticamente o driver da impressora IDP.
+- O computador de uso ainda precisa ter o driver da impressora configurado.
+- O SisWeb deve estar instalado/aberto conforme o fluxo já validado.
+- Não compartilhe o projeto-fonte; distribua apenas o Setup.exe final.

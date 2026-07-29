@@ -1,0 +1,38 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build
+build/
+dist/
+dist_instalador/
+
+# Logs
+logs/
+*.log
+
+# Saídas
+output/
+fotos_temp/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyInstaller
+*.spec.bak
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Arquivos temporários
+*.tmp
+*.bak

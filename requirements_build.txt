@@ -1,0 +1,16 @@
+customtkinter
+Pillow
+qrcode
+opencv-python
+mediapipe
+google-api-python-client
+google-auth
+google-auth-httplib2
+pywin32
+rapidocr
+onnxruntime
+numpy
+PyAutoGUI
+pyperclip
+pywinauto
+pyinstaller

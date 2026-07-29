@@ -1,0 +1,9 @@
+SISTEMA DE CRACHÁS CDN — EXECUTÁVEL
+
+1. O executável é gerado em dist\SistemaCrachaCDN.
+2. Não mova apenas o .exe; distribua a pasta inteira.
+3. O arquivo credentials\credenciais.json deve permanecer ao lado do executável, dentro da pasta credentials.
+4. output, fotos_temp e logs são pastas graváveis e ficam ao lado do executável.
+5. Templates, fontes, modelos e configurações são recursos internos do build.
+6. Para gerar novamente, execute GERAR_EXE_DEFINITIVO.bat no Windows.
+7. Antes de uso diário, teste: corretor, supervisor com RG, supervisor com CPF, SisWeb fechado e falha de impressão.

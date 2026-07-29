@@ -1,0 +1,33 @@
+INTEGRAÇÃO FINAL — CRACHÁ DE SUPERVISOR
+
+1. Feche o Sistema de Crachás.
+2. Faça uma cópia de segurança de C:\SistemaCracha.
+3. Copie todo o conteúdo deste pacote para C:\SistemaCracha e confirme a mesclagem/substituição.
+4. Confirme estes arquivos:
+   C:\SistemaCracha\app\processador_pedidos.py
+   C:\SistemaCracha\app\supervisor_badge_generator.py
+   C:\SistemaCracha\app\sisweb_service.py
+   C:\SistemaCracha\app\vision\
+   C:\SistemaCracha\config\supervisor_layout.json
+   C:\SistemaCracha\config\sisweb_coordenadas.json
+   C:\SistemaCracha\config\sisweb_regioes.json
+5. Para testar pelo código-fonte:
+   cd /d C:\SistemaCracha
+   .venv\Scripts\python.exe main.py
+
+REGRAS IMPLEMENTADAS
+- Usa os cabeçalhos reais: Código SISWeb, Nome e sobrenome de preferência, Nome do Supervisor.
+- C e E iguais após normalização = supervisor.
+- C e E diferentes = corretor.
+- RG é prioritário; CPF é usado apenas quando RG não existir.
+- Crachás têm nomes distintos por tipo, impedindo reutilização de um crachá antigo de corretor.
+
+ANTES DO TESTE
+- Apague o PNG antigo daquela linha em C:\SistemaCracha\output, caso exista.
+- Deixe o STATUS da linha vazio e a coluna C com cor pendente.
+- Deixe o SisWeb aberto, autenticado e maximizado.
+- Não use mouse/teclado durante a consulta.
+
+EXECUTÁVEL
+O arquivo SistemaCrachaCDN.spec foi atualizado para incluir config, OCR e automação SisWeb.
+Recompile o EXE somente depois de o teste pelo main.py funcionar.

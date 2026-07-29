@@ -1,0 +1,14 @@
+from app.path_manager import FONTS
+
+# FOTO
+POSICAO_FOTO = (152, 276)
+DIAMETRO_FOTO = 334
+
+# NOME
+POSICAO_NOME_Y = 624
+TAMANHO_FONTE_NOME = 42
+CAMINHO_FONTE_NOME = str(FONTS / "fonnts.com-Omnium_ExtraBold.otf")
+
+# QR CODE
+POSICAO_QRCODE = (201, 704)
+TAMANHO_QRCODE = 240

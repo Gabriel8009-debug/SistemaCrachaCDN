@@ -1,0 +1,27 @@
+MÓDULO SISWEB PARA INTEGRAÇÃO NO SISTEMACRACHA
+
+COPIAR PARA C:\SistemaCracha:
+
+- app\sisweb_service.py
+- app\vision\
+- config\sisweb_coordenadas.json
+- config\sisweb_regioes.json
+- requirements_sisweb.txt
+- INSTALAR_DEPENDENCIAS_SISWEB.bat
+
+Depois execute INSTALAR_DEPENDENCIAS_SISWEB.bat.
+
+Uso no código:
+
+    from app.sisweb_service import consultar_sisweb
+
+    dados = consultar_sisweb("1212")
+
+    rg = dados["rg"]
+    cpf = dados["cpf"]
+
+Condições de uso:
+
+- SisWeb aberto e autenticado.
+- Janela principal maximizada.
+- Não usar mouse ou teclado durante a consulta.

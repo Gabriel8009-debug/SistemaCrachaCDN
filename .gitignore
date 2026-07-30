@@ -1,3 +1,70 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+dist_instalador/
+*.egg-info/
+.eggs/
+*.whl
+
+# PyInstaller generated files
+*.spec.bak
+
+# Runtime output and temporary data
+output/
+logs/
+fotos_temp/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+credentials/
+credentials*.json
+service-account*.json
+service_account*.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Test and analysis reports
+coverage.xml
+junit.xml
+.pyre/
+.pytype/
+
+# Local tooling
+.ipynb_checkpoints/
+.tox/
+.nox/
 # Ambiente virtual
 .venv/
 

@@ -103,3 +103,11 @@ Desktop.ini
 # Arquivos temporários
 *.tmp
 *.bak
+# Credenciais e segredos locais
+credentials/*
+!credentials/README.md.example
+credentials*.json
+*.pem
+*.key
+*service-account*.json
+*service_account*.json
